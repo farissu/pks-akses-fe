@@ -12,6 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@media (max-width: 600px) {
+  .grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+  /* Tambahkan aturan styling lainnya sesuai kebutuhan */
+}
+
 
 .App-header {
   background-color: #282c34;

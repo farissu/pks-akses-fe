@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Loading from "./components/loading";
-import Home from "./components/Home";
-import Second from "./components/Second"; 
-import Main from "./components/Main";     
-import First from "./components/First";
+import Loading from "./page/loading";
+import Home from "./page/Home";
+import Second from "./page/Second"; 
+import Main from "./page/Main";     
+import First from "./page/First";
 
 function App() {
   return (

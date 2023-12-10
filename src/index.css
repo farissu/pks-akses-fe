@@ -15,3 +15,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.layanan-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px; /* Sesuaikan jarak antar item */
+}
+
+.layanan-item {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .layanan-grid {
+    grid-template-columns: repeat(8); /* Ubah menjadi 2 kolom pada handphone */
+  }
+}
