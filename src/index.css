@@ -31,7 +31,3 @@ code {
   }
 }
 
-.search-box input::placeholder {
-  position: absolute;
-  left: 14px;
-}
