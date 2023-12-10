@@ -10,8 +10,6 @@ const Home = () => {
       <Banner />
       <Layanan />
 
-      {/* Content of the Home component */}
-      <h1>Hallo dari Halaman Home!</h1>
     </div>
   );
 };

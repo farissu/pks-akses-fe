@@ -30,3 +30,8 @@ code {
     grid-template-columns: repeat(8); /* Ubah menjadi 2 kolom pada handphone */
   }
 }
+
+.search-box input::placeholder {
+  position: absolute;
+  left: 14px;
+}

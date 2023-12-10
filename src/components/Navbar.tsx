@@ -30,21 +30,19 @@ const Navbar: React.FC = () => {
         }}
       />
 
-      {/* Search Box */}
-      <div className="box" style={{ marginTop: "15px", marginBottom: "20px"}}>
-        <div className="search-box flex">
-          <input
-            id="searchbox"
-            className="placeholder:text-sm italic  px-14 py-1"
-            type="text"
-            placeholder="Cari apa saja di sini"
-            style={{ borderRadius: "16.5px", textAlign: "left", paddingLeft: "10px", outline: "none",  }}
-          />
-          <label htmlFor="check" className="icon py-2 px-2">
-            {/* <IoSearch className="w-7 h-7" onClick={searchboxFocus} /> */}
-          </label>
-        </div>
-      </div>
+{/* Search Box */}
+<div className="box" style={{ marginTop: "15px", marginBottom: "20px"}}>
+  <div className="search-box flex">
+    <input
+      id="searchbox"
+      className="placeholder:text-sm italic px-14 py-1"
+      type="text"
+      placeholder="Cari apa saja di sini"
+      style={{ borderRadius: "16.5px", textAlign: "left", outline: "none"}}
+    />
+  </div>
+</div>
+
 
       {/* Group img */}
       <img
