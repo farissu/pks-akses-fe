@@ -36,10 +36,15 @@ const Banner = () => {
         >
           {/* First Swiper slide */}
           <SwiperSlide>
-            <a href="#" onClick={(e) => e.preventDefault()}>
+            <div
+              role="button"
+              tabIndex={0}
+              onClick={() => {}}
+              onKeyPress={() => {}}
+            >
               <img
                 src="/banner-1.png"
-                alt="Description of the first image"
+                alt="Description_1"  // Add a meaningful description
                 className="lg:min-h-[170px] max-h-[170px] lg:max-h-[170px] bg-gray-500 w-full"
                 style={{
                   maxWidth: "100%",
@@ -49,15 +54,20 @@ const Banner = () => {
                 height={150}
                 loading="lazy"
               />
-            </a>
+            </div>
           </SwiperSlide>
 
           {/* Second Swiper slide */}
           <SwiperSlide>
-            <a href="#" onClick={(e) => e.preventDefault()}>
+            <div
+              role="button"
+              tabIndex={0}
+              onClick={() => {}}
+              onKeyPress={() => {}}
+            >
               <img
                 src="/banner-2.png"
-                alt="Description of the second image"
+                alt="Description_2"  // Add a meaningful description
                 className="lg:min-h-[170px] max-h-[170px] lg:max-h-[170px] bg-gray-500 w-full"
                 style={{
                   maxWidth: "100%",
@@ -67,7 +77,7 @@ const Banner = () => {
                 height={150}
                 loading="lazy"
               />
-            </a>
+            </div>
           </SwiperSlide>
 
           {/* Add more SwiperSlides as needed */}
