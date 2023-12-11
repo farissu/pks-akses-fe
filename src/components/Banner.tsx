@@ -36,34 +36,36 @@ const Banner = () => {
         >
           {/* First Swiper slide */}
           <SwiperSlide>
-            <a>
+            <a href="#" onClick={(e) => e.preventDefault()}>
               <img
-                src="/banner-1.png"  // Assuming banner-1.png is in the public folder
+                src="/banner-1.png"
+                alt="Description of the first image"
                 className="lg:min-h-[170px] max-h-[170px] lg:max-h-[170px] bg-gray-500 w-full"
                 style={{
                   maxWidth: "100%",
-                  borderRadius: roundedCornerSize, // Make sure 'roundedCornerSize' is defined
+                  borderRadius: roundedCornerSize,
                 }}
-                width={300} // Adjust the width as needed
-                height={150} // Adjust the height as needed
-                loading="lazy" // Optionally add the loading attribute for lazy loading
+                width={300}
+                height={150}
+                loading="lazy"
               />
             </a>
           </SwiperSlide>
 
           {/* Second Swiper slide */}
           <SwiperSlide>
-            <a>
+            <a href="#" onClick={(e) => e.preventDefault()}>
               <img
-                src="/banner-1.png"  // Assuming banner-2.png is in the public folder
+                src="/banner-2.png"
+                alt="Description of the second image"
                 className="lg:min-h-[170px] max-h-[170px] lg:max-h-[170px] bg-gray-500 w-full"
                 style={{
                   maxWidth: "100%",
-                  borderRadius: roundedCornerSize, // Make sure 'roundedCornerSize' is defined
+                  borderRadius: roundedCornerSize,
                 }}
-                width={300} // Adjust the width as needed
-                height={150} // Adjust the height as needed
-                loading="lazy" // Optionally add the loading attribute for lazy loading
+                width={300}
+                height={150}
+                loading="lazy"
               />
             </a>
           </SwiperSlide>
