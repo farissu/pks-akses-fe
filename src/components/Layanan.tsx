@@ -2,7 +2,6 @@ import React from "react";
 
 class Layanan extends React.PureComponent {
   render() {
-    const urlGambarDefault = "/default.png"; // Ganti dengan URL gambar default yang diinginkan
 
     const layananItems = [
       { name: "kelas", imageSrc: "/kelas.png", width: 72, height: 72, marginTop: '-5px', marginLeft: '27px', textMarginTop: '0px', textMarginLeft: '42px' },

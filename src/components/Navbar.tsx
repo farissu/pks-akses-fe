@@ -1,11 +1,7 @@
-import React, { useState } from "react";
-import { IoSearch } from "react-icons/io5";
+import React from "react";
 
 const Navbar: React.FC = () => {
-  const searchboxFocus = () => {
-    document.getElementById("searchbox")?.focus();
-  };
-
+  
   const divStyle: React.CSSProperties = {
     backgroundColor: "#FF5001",
     height: "70px",
@@ -41,7 +37,6 @@ const Navbar: React.FC = () => {
             style={{ borderRadius: "16.5px", textAlign: "left", paddingLeft: "10px", outline: "none",  }}
           />
           <label htmlFor="check" className="icon py-2 px-2">
-            {/* <IoSearch className="w-7 h-7" onClick={searchboxFocus} /> */}
           </label>
         </div>
       </div>

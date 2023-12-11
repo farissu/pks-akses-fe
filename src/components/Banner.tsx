@@ -6,7 +6,6 @@ import "swiper/css/pagination";
 
 // Banner component
 const Banner = () => {
-  const urlGambarDefault = "/default.png";
   const roundedCornerSize = "15px";
 
   return (
